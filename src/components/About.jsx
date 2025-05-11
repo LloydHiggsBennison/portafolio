@@ -28,16 +28,16 @@ const About = () => {
             Me apasiona la tecnología y la mejora continua, con un enfoque en trabajo colaborativo y entrega de valor.
           </p>
           <div className="mt-6 flex gap-4 text-xl text-gray-600">
-            <a href="https://github.com/tuusuario" target="_blank" rel="noreferrer">
+            <a href="https://github.com/LloydHiggsBennison" target="_blank" rel="noreferrer">
               <FaGithub className="hover:text-violet-500" />
             </a>
-            <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/lloyd-higgs-bennison-476319174/" target="_blank" rel="noreferrer">
               <FaLinkedin className="hover:text-violet-500" />
             </a>
-            <a href="mailto:tu@email.com">
+            <a href="mailto:007.lloyd.higgs@gmail.com">
               <FaEnvelope className="hover:text-violet-500" />
             </a>
-            <a href="https://twitter.com/tuusuario" target="_blank" rel="noreferrer">
+            <a href="https://x.com/lloyd_higgs" target="_blank" rel="noreferrer">
               <FaTwitter className="hover:text-violet-500" />
             </a>
           </div>
