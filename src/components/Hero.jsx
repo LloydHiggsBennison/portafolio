@@ -8,7 +8,7 @@ import {
   FaTwitter,
   FaInstagram,
 } from "react-icons/fa";
-import profilePic from "../assets/Perfil.jpg";
+import profilePic from "../assets/perfil2.jpg";
 
 const Hero = () => {
   const heroRef = useRef(null);

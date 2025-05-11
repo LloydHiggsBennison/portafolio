@@ -3,10 +3,26 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const testimonios = [
   {
+    autor: "Emilio del Solar",
+    cargo: "Seremi de Salud - Gobierno de Chile",
+    texto: "Lloyd se integró de forma impecable a un entorno institucional exigente, destacando por su capacidad para estructurar soluciones en ciclos de trabajo iterativos, con entregas claras y eficientes. Su profesionalismo y enfoque metódico fueron clave para mantener la alineación técnica y operativa del equipo.",
+  },
+  {
+  autor: "Pablo Ibarra",
+  cargo: "Cloud Engineer - Match",
+  texto: "Lloyd destaca por su gran capacidad para integrar servicios en la nube con soluciones web. Su enfoque estructurado y visión técnica han sido claves para el éxito de nuestros despliegues.",
+  },
+  {
     autor: "Ernesto Pérez",
     cargo: "Canales no Presenciales - Iberdrola España",
     texto:
       "Lloyd demostró una gran capacidad para desarrollar soluciones eficientes y automatizadas usando GAS. Un profesional impecable.",
+  },
+  {
+    autor: "Marco Oneto",
+    cargo: "CEO - Maoz29.cl",
+    texto:
+      "Destaca por su dominio en soluciones tecnológicas, profesionalismo y compromiso. La calidad de su trabajo supera constantemente las expectativas.",
   },
   {
     autor: "Alejandro Gajardo",
@@ -21,21 +37,10 @@ const testimonios = [
       "Entrega proyectos con un nivel profesional altísimo. Destaca por su diseño, lógica y claridad en documentación técnica.",
   },
   {
-    autor: "Marco Oneto",
-    cargo: "CEO - Maoz29.cl",
-    texto:
-      "Destaca por su dominio en soluciones tecnológicas, profesionalismo y compromiso. La calidad de su trabajo supera constantemente las expectativas.",
-  },
-  {
     autor: "Annays Bustos",
-    cargo: "Ing. Industrial - UNAB",
+    cargo: "Ing. Civil Industrial - UNAB",
     texto:
       "Excelente dominio de Python. Resuelve dudas con claridad y ejemplifica de forma didáctica y eficaz.",
-  },
-  {
-    autor: "Pablo Ibarra",
-    cargo: "Cloud Engineer - Match",
-    texto: ".",
   },
 ];
 
