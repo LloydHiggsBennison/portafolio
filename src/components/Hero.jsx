@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import Header from "./Header";
+import { SiX } from "react-icons/si";
 import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
   FaFacebook,
-  FaTwitter,
   FaInstagram,
 } from "react-icons/fa";
 import profilePic from "../assets/perfil2.jpg";
@@ -66,23 +66,23 @@ const Hero = () => {
             <span className="uppercase tracking-widest">CONECTEMOS</span>
             <span className="text-yellow-400 text-lg">➤</span>
             <div className="flex gap-4 text-2xl">
-              <a href="#" className="hover:text-accent transition">
+              <a href="https://web.facebook.com/Lloydbalonmanista" className="hover:text-accent transition">
                 <FaFacebook />
               </a>
-              <a href="#" className="hover:text-accent transition">
+              <a href="https://www.github.com/LloydHiggsBennison" className="hover:text-accent transition">
                 <FaGithub />
               </a>
-              <a href="#" className="hover:text-accent transition">
-                <FaTwitter />
+              <a href="https://x.com/lloyd_higgs" className="hover:text-accent transition">
+                <SiX />
               </a>
-              <a href="#" className="hover:text-accent transition">
+              <a href="https://www.linkedin.com/in/lloyd-higgs-bennison-476319174/" className="hover:text-accent transition">
                 <FaLinkedin />
               </a>
-              <a href="#" className="hover:text-accent transition">
+              <a href="https://www.instagram.com/lloyd.higgs.b/" className="hover:text-accent transition">
                 <FaInstagram />
               </a>
               <a
-                href="mailto:correo@correo.cl"
+                href="mailto:007.lloyd.higgs@gmail.com"
                 className="hover:text-accent transition"
               >
                 <FaEnvelope />

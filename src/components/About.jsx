@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
+import { SiX } from "react-icons/si";
+
 
 const idiomas = [
   { idioma: "Español", nivel: "Nativo" },
@@ -38,7 +40,7 @@ const About = () => {
               <FaEnvelope className="hover:text-violet-500" />
             </a>
             <a href="https://x.com/lloyd_higgs" target="_blank" rel="noreferrer">
-              <FaTwitter className="hover:text-violet-500" />
+              <SiX className="hover:text-violet-500" />
             </a>
           </div>
         </div>
