@@ -48,7 +48,7 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center w-full pt-48 px-6">
         <div className="w-full md:w-auto flex justify-center md:justify-end mb-14 md:mb-0 md:mr-20">
           <img
-            src="public/perfil.jpg"
+            src="/perfil.jpg"
             alt="Lloyd Higgs"
             className="w-48 h-48 md:w-56 md:h-56 rounded-full border-4 border-violet-500 shadow-xl object-cover mt-6"
         />
