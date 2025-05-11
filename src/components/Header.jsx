@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   const navItems = [
-    { id: "about", label: "ACERCA DE MI" },
+    { id: "about-me", label: "ACERCA DE MI" },
     { id: "about", label: "IDIOMAS" },
     { id: "services", label: "SERVICIOS" },
     { id: "skills", label: "TECNOLOGÍAS" },

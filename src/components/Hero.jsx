@@ -8,7 +8,7 @@ import {
   FaFacebook,
   FaInstagram,
 } from "react-icons/fa";
-import profilePic from "../assets/perfil2.jpg";
+import profilePic from "../assets/perfil.jpg";
 
 const Hero = () => {
   const heroRef = useRef(null);
@@ -42,17 +42,16 @@ const Hero = () => {
 
   return (
     <section
-      id="hero"
       ref={heroRef}
       className="relative min-h-screen flex flex-col items-center justify-center px-6 text-white font-light overflow-hidden"
     >
       <Header />
-      <div className="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center w-full pt-36 px-6">
-        <div className="flex-shrink-0 mb-8 md:mb-0 md:mr-12">
+      <div className="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center w-full pt-48 px-6">
+        <div className="w-full md:w-auto flex justify-center md:justify-end mb-14 md:mb-0 md:mr-20">
           <img
             src={profilePic}
             alt="Lloyd Higgs"
-            className="w-52 h-52 md:w-60 md:h-60 rounded-full border-4 border-violet-500 shadow-xl object-cover"
+            className="w-48 h-48 md:w-56 md:h-56 rounded-full border-4 border-violet-500 shadow-xl object-cover mt-6"
           />
         </div>
         <div className="text-left max-w-2xl">
@@ -81,10 +80,7 @@ const Hero = () => {
               <a href="https://www.instagram.com/lloyd.higgs.b/" className="hover:text-accent transition">
                 <FaInstagram />
               </a>
-              <a
-                href="mailto:007.lloyd.higgs@gmail.com"
-                className="hover:text-accent transition"
-              >
+              <a href="mailto:007.lloyd.higgs@gmail.com" className="hover:text-accent transition">
                 <FaEnvelope />
               </a>
             </div>

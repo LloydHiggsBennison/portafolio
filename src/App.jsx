@@ -14,9 +14,11 @@ function App() {
   return (
     <>
       <Layout>
-      <Header />
         <section id="hero">
           <Hero />
+        </section>
+        <section id="about-me">
+          <About />
         </section>
         <section id="about">
           <About />

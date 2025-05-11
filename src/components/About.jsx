@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { SiX } from "react-icons/si";
-
 
 const idiomas = [
   { idioma: "Español", nivel: "Nativo" },
@@ -11,7 +10,7 @@ const idiomas = [
 
 const About = () => {
   return (
-    <section id="about" className="py-20 px-6 bg-neutral text-gray-800">
+    <section className="py-20 px-6 bg-neutral text-gray-800">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -24,10 +23,11 @@ const About = () => {
           <h2 className="text-3xl font-extrabold text-violet-600 mb-4">¿QUIÉN SOY?</h2>
           <h3 className="text-xl font-semibold mb-4">Desarrollador | Ingeniero Informático</h3>
           <p className="text-gray-700 text-base leading-relaxed">
-            Soy estudiante de Ingenieria en Informática en INACAP y profesional enfocado en el desarrollo de soluciones web, automatización de procesos y análisis técnico.
-            Tengo experiencia en empresas como <strong>Iberdrola España</strong>, <strong>Unicef Chile</strong> y <strong>Nespresso Chile</strong>, con foco en eficiencia y calidad.
-            Manejo herramientas como React, Python, Google Apps Script, y Linux. 
-            Me apasiona la tecnología y la mejora continua, con un enfoque en trabajo colaborativo y entrega de valor.
+            Soy estudiante de Ingeniería en Informática en INACAP y profesional enfocado en el desarrollo de soluciones web,
+            automatización de procesos y análisis técnico. Tengo experiencia en empresas como <strong>Iberdrola España</strong>,
+            <strong> Unicef Chile</strong> y <strong>Nespresso Chile</strong>, con foco en eficiencia y calidad. Manejo herramientas como
+            React, Python, Google Apps Script, y Linux. Me apasiona la tecnología y la mejora continua, con un enfoque en
+            trabajo colaborativo y entrega de valor.
           </p>
           <div className="mt-6 flex gap-4 text-xl text-gray-600">
             <a href="https://github.com/LloydHiggsBennison" target="_blank" rel="noreferrer">
@@ -51,7 +51,7 @@ const About = () => {
           <p className="text-gray-700 text-base mb-6">Puedo ser de ayuda.</p>
           <ul className="space-y-4">
             {idiomas.map((item, i) => (
-              <li key={i}>
+              <li key={item.idioma}>
                 <p className="font-semibold text-gray-800 uppercase">
                   {item.idioma}: <span className="text-sm font-normal capitalize">{item.nivel}</span>
                 </p>
