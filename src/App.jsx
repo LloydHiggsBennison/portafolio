@@ -20,9 +20,6 @@ function App() {
         <section id="about-me">
           <About />
         </section>
-        <section id="about">
-          <About />
-        </section>
         <section id="services">
           <Services />
         </section>
