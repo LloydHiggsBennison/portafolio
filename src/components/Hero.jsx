@@ -8,7 +8,7 @@ import {
   FaFacebook,
   FaInstagram,
 } from "react-icons/fa";
-import profilePic from "../assets/perfil.jpg";
+import profilePic from "/perfil.jpg";
 
 const Hero = () => {
   const heroRef = useRef(null);
@@ -52,7 +52,7 @@ const Hero = () => {
             src={profilePic}
             alt="Lloyd Higgs"
             className="w-48 h-48 md:w-56 md:h-56 rounded-full border-4 border-violet-500 shadow-xl object-cover mt-6"
-          />
+            />
         </div>
         <div className="text-left max-w-2xl">
           <h1 className="text-5xl md:text-6xl font-light mb-4 leading-tight">
