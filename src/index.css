@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes blob {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1);
+    border-radius: 42% 58% 35% 65% / 47% 33% 67% 53%;
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+    border-radius: 57% 43% 64% 36% / 40% 66% 34% 60%;
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+    border-radius: 63% 37% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+.animate-blob {
+  animation: blob 10s infinite ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
