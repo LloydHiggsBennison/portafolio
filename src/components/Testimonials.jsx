@@ -9,8 +9,8 @@ const testimonios = [
   },
   {
   autor: "Pablo Ibarra",
-  cargo: "Cloud Engineer - Match",
-  texto: "Lloyd destaca por su gran capacidad para integrar servicios en la nube con soluciones web. Su enfoque estructurado y visión técnica han sido claves para el éxito de nuestros despliegues.",
+  cargo: "Cloud Engineer - Mach",
+  texto: "En mis conversaciones con Lloyd el demuestra tener conocimientos para desplegar soluciones web en entornos productivos.",
   },
   {
     autor: "Ernesto Pérez",
@@ -26,7 +26,7 @@ const testimonios = [
   },
   {
     autor: "Alejandro Gajardo",
-    cargo: "Jefe de Equipo - Nespresso Chile",
+    cargo: "Team Leader Senior - Nespresso Chile",
     texto:
       "Excelente dominio de React y gran actitud de colaboración. Siempre dispuesto a proponer mejoras técnicas en nuestros procesos.",
   },
