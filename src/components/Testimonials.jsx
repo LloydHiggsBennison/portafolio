@@ -5,7 +5,7 @@ const testimonios = [
   {
     autor: "Emilio del Solar",
     cargo: "Seremi de Salud - Gobierno de Chile",
-    texto: "Lloyd se integró de forma impecable a un entorno institucional exigente, destacando por su capacidad para estructurar soluciones en ciclos de trabajo iterativos, con entregas claras y eficientes. Su profesionalismo y enfoque metódico fueron clave para mantener la alineación técnica y operativa del equipo.",
+    texto: "Conozco el trabajo de Lloyd y puedo afirmar que se integra de forma impecable en entornos institucionales exigentes. Destaca por su capacidad para estructurar soluciones en ciclos de trabajo iterativos, con entregas claras y eficientes. Su profesionalismo y enfoque metódico han sido clave para mantener la alineación técnica y operativa del equipo.",
   },
   {
   autor: "Pablo Ibarra",
