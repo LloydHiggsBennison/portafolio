@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 import DownloadCV from "./components/DownloadCV";
 import Header from "./components/Header";
 import Testimonials from "./components/Testimonials";
+import { SpeedInsights } from "@vercel/speed-insights/react";
+
 
 function App() {
   return (
@@ -40,6 +42,7 @@ function App() {
         </section>
         <Footer />
       </Layout>
+      <SpeedInsights />
     </>
   );
 }
