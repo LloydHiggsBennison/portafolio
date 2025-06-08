@@ -23,8 +23,8 @@ const DownloadCV = () => {
           Descarga mi CV actualizado y conoce más sobre mi perfil profesional.
         </p>
       <a
-        href="/Lloyd_Higgs_Cv.pdf"
-        download="Lloyd_Higgs_Cv.pdf"
+        href="/CV-LloydHiggs.pdf"
+        download="CV-LloydHiggs.pdf"
         className="inline-flex items-center gap-2 bg-white text-violet-800 font-bold px-6 py-3 rounded shadow-md hover:opacity-90 transition"
         >
         <FaDownload /> Descargar CV
