@@ -86,4 +86,4 @@ npm run dev
 
 ## 🧾 Licencia
 
-MIT © Lloyd Higgs
+© Lloyd Higgs
